@@ -52,6 +52,7 @@ digraph EpiFamily
     eleroy [label="Emma\nLeroy"];
     epie [label="Olivier\nEpié"];
     erachlin [label="Emma\nRachlin"];
+    eors [label="Ethan\nOrs"];
     eubogi [label="Elie\nUbogi"];
     falcoz [label="Gauthier\nFalcoz"];
     fang [label="Clément\nFang"];
@@ -109,6 +110,7 @@ digraph EpiFamily
     malasse [label ="Juliette\nMalassé"];
     manceau [label="Aurélien\nManceau"];
     maunaury [label="Augustin\nMaunaury"];
+    mramos [label="Maxence\nRamos-Pariente"];
     mbernard [label="Marion\nBernard"];
     mchardon [label="Maxime\nChardon"];
     mducrocq [label="Michael\nDucroq"];
@@ -200,6 +202,7 @@ digraph EpiFamily
     vhenry [label ="Valentin\nHenry"];
     victoria [label="Victoria\nKrajcovicova"];
     villain [label="Marc\nVillain"];
+    vmuscedere [label="Vincent\nMuscedere"];
     vpellan [label="Victor\nPellan"];
     vseux [label="Valentin\nSeux"];
     vthiron [label="Valentin\nThiron"];
@@ -331,11 +334,15 @@ digraph EpiFamily
         noailles -> ichaumont;
         noailles -> dmadro;
         noailles -> bamar;
+		// Benjamin Amar's graph
+		bamar -> erachlin
+		bamar -> eors
+		bamar -> mramos
+		bamar -> vmuscedere
         noailles -> tz;
         noailles -> zeitoun;
         noailles -> ripoll;
 	  // Ripol's graph
-	  ripoll -> erachlin;
 	  ripoll -> jwirth;
         noailles -> manceau;
         noailles -> acharles
